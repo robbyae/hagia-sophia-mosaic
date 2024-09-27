@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+#image {
+    height: 95vh;
+    display: block;
+    margin: auto;
+}
+
+#test-svg {
+    position: absolute;
+    top: 0;
+}
+#test-svg:hover {
+    fill: blue;
+}
