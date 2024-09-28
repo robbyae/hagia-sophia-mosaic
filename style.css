@@ -2,16 +2,18 @@ body {
     background-color: black;
 }
 
-#image {
+.image {
+    position: absolute;
     height: 95vh;
     display: block;
     margin: auto;
 }
 
-#test-svg {
-    position: absolute;
-    top: 0;
+#hand:hover {
+    opacity: .3;
 }
-#test-svg:hover {
-    fill: blue;
+
+#hand {
+    z-index: 40;
+    opacity: 0;
 }
