@@ -15,5 +15,7 @@ body {
 
 #hand {
     z-index: 40;
+    fill: none;
     opacity: 0;
+    background-color: transparent;
 }
