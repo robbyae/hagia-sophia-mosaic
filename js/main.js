@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('#hand-svg').click(function(){
+  $('#hand').click(function(){
     alert('kekw');
   });
 });
