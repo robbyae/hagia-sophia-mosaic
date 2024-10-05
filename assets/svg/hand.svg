@@ -6,9 +6,4 @@
     #hand-svg{opacity:0;}
     #hand-svg:hover{fill:#FFFFFF; opacity:.3;cursor:pointer;}
     </style>
-    <script>
-        function kek(){
-            alert('lulw');
-        }
-    </script>
 </svg>

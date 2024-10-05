@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('#hand').click(function(){
-    alert('kekw');
+  $('#hand-svg').click(function(){
+    $('#icxc-window').css('display','block');
   });
 });

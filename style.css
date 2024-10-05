@@ -1,12 +1,22 @@
+@font-face {
+    font-family: EBGaramond;
+    src: url(assets/fonts/EBGaramond-VariableFont_wght.ttf);
+}
+
+*,html {
+    font-family: EBGaramond;
+}
+
 body {
     background-color: black;
 }
 
 .image {
-    position: absolute;
+    position: absolute; 
+    left: 0; 
+    right: 50%; 
+    margin-inline: auto; 
     height: 95vh;
-    display: block;
-    margin: auto;
 }
 
 #hand:hover {
@@ -18,4 +28,35 @@ body {
     fill: none;
     opacity: 0;
     background-color: transparent;
+}
+
+#icxc-window {
+    position: absolute;
+    width: 50%;
+    left: 0; 
+    right: 0;
+    top: 2%;
+    margin-inline: auto; 
+    background-color: bisque;
+    border-style: solid;
+    border-color: #151310;
+    color: black;
+    display:none;
+}
+#icxc-title {
+    text-align: center;
+}
+
+#txt-box {
+    color: white;
+    position: absolute; 
+    top: 5%;
+    left: 40%; 
+    right: 0;
+    width: 40%;
+    margin-inline: auto; 
+    height: 95vh;
+}
+#title {
+    text-align: center;
 }
