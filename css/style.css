@@ -1,0 +1,32 @@
+@font-face {
+    font-family: EBGaramond;
+    src: url(assets/fonts/EBGaramond-VariableFont_wght.ttf);
+}
+
+*,html {
+    font-family: EBGaramond;
+}
+
+body {
+    background-color: black;
+}
+
+.image {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 95vh;
+}
+
+#main {
+    z-index: 0;
+}
+#mp-oy
+{
+    z-index: 40;
+}
+#theotokos {
+    z-index: 40;
+}
