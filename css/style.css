@@ -1,6 +1,6 @@
 @font-face {
     font-family: EBGaramond;
-    src: url(assets/fonts/EBGaramond-VariableFont_wght.ttf);
+    src: url(/assets/fonts/EBGaramond-VariableFont_wght.ttf);
 }
 
 *,html {
@@ -13,11 +13,14 @@ body {
 
 .image {
     position: absolute;
-    margin: auto;
-    left: 0;
+    left: 2.5vh;
     right: 0;
+    top: 2.5vh;
     text-align: center;
     height: 95vh;
+}
+.side-img {
+    width: 26vw;
 }
 
 #main {
@@ -29,4 +32,17 @@ body {
 }
 #theotokos {
     z-index: 40;
+}
+
+#txt-box {
+    color: white;
+    width: 26vw;
+    float: right;
+}
+#title {
+    text-align: center;
+}
+
+#writing {
+    font-size: 1.2rem;
 }
