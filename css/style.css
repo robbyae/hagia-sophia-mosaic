@@ -3,10 +3,6 @@
     src: url(../assets/fonts/EBGaramond-VariableFont_wght.ttf);
 }
 
-*,html {
-    font-family: EBGaramond;
-}
-
 body {
     background-color: black;
 }
