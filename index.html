@@ -14,6 +14,14 @@
     <script defer src="js/jquery.zoom.js"></script>
 
     <script defer src="js/main.js"></script>
+
+    <script defer>
+    // SIZE RIGHT TEXT BOX //
+        var screen_width = window.innerWidth;
+        var img_width = document.getElementById("main").innerWidth + .06*$window.innerHeight;
+        var txt_width = (screen_width-img_width) + 'px';
+        document.getElementById("txt-box").style.width = txt_width;
+    </script>
 </head>
 
 <body>
