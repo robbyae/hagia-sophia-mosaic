@@ -23,8 +23,16 @@ body {
 
 }
 
+#zoom-box {
+    display: inline-block;
+    position: relative;
+}
 #main {
     z-index: 0;
+    display: inline-block;
+}
+#main-svg {
+    display: block;
 }
 #mp-oy
 {
@@ -49,4 +57,16 @@ body {
 
 #align {
     display: flex;
+}
+
+#preloadedImages
+{
+    width: 0px;
+    height: 0px;
+    display: inline;
+    background-image: url(../assets/img/hagia-sophia.jpg);
+}
+
+#zoom {
+    cursor: pointer;
 }
