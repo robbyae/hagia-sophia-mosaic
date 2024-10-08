@@ -13,14 +13,14 @@ body {
 
 .image {
     position: absolute;
-    left: 2.5vh;
-    right: 0;
-    top: 2.5vh;
+    left: 2vh;
+    top: 2vh;
     text-align: center;
-    height: 95vh;
+    height: 96vh;
 }
 .side-img {
-    width: 26vw;
+    width: 100%;
+
 }
 
 #main {
@@ -35,9 +35,9 @@ body {
 }
 
 #txt-box {
+    position: absolute;
     color: white;
-    width: 26vw;
-    float: right;
+    right: 2vh;
 }
 #title {
     text-align: center;
@@ -45,4 +45,8 @@ body {
 
 #writing {
     font-size: 1.2rem;
+}
+
+#align {
+    display: flex;
 }
