@@ -2,4 +2,4 @@ This website is a technical demo for a concept to improve a viewer's understandi
 
 The site is made with HTML, CSS, JS (Jquery). The hoverable elements are created with Affinity Designer (essentially Adobe Illustrator).
 
-Please email me should you have any feedback or suggestions: robbyastrong@gmail.com
+Please email me if you have any feedback or suggestions: robbyastrong@gmail.com
