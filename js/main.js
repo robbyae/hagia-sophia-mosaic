@@ -52,11 +52,7 @@ $('#right-text').click(function(){
   )
 });
 
-// SIZE RIGHT TEXT BOX //
-var screen_width = $(window).width();
-var img_width = $("#main").width() + .06*$(window).height();
-var txt_width = (screen_width-img_width) + 'px';
-$("#txt-box").css("width", screen_width - img_width);
+
 
 // ZOOM //
 $('#zoom').click(function(){
@@ -66,7 +62,7 @@ $('#zoom').click(function(){
   }
   else if($('#main-svg').css("display","none")){
     $('#main-svg').css("display","block");
-  };
+  }});
 
 // $(document).ready(function(){
   
