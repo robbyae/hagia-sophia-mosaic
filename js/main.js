@@ -67,7 +67,6 @@ $('#zoom').click(function(){
   else if($('#main-svg').css("display","none")){
     $('#main-svg').css("display","block");
   };
-});
 
 // $(document).ready(function(){
   
