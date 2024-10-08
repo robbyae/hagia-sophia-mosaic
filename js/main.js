@@ -53,12 +53,10 @@ $('#right-text').click(function(){
 });
 
 // SIZE RIGHT TEXT BOX //
-$(document).ready(function(){
   var screen_width = $(window).width();
   var img_width = $("#main").width() + .06*$(window).height();
   var txt_width = (screen_width-img_width) + 'px';
   $("#txt-box").css("width", txt_width);
-});
 
 // ZOOM //
 $('#zoom').click(function(){
