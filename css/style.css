@@ -12,7 +12,9 @@ body {
     left: 2vh;
     top: 2vh;
     text-align: center;
-    height: 96vh;
+    /* height: 96vh; */
+    width: 70vw;
+    z-index: 1;
 }
 .side-img {
     width: 100%;
@@ -41,7 +43,8 @@ body {
 #txt-box {
     position: absolute;
     color: white;
-    right: 2vh;
+    right: 2.5vh;
+    width: 26vw;
 }
 #title {
     text-align: center;
@@ -55,14 +58,15 @@ body {
     display: flex;
 }
 
-#preloadedImages
-{
-    width: 0px;
-    height: 0px;
-    display: inline;
-    background-image: url(../assets/img/hagia-sophia.jpg);
-}
-
 #zoom {
     cursor: pointer;
+}
+
+.preload {
+    display: absolute;
+    width: 20%;
+    margin-top: 300px;
+    margin-left: 300px;
+    opacity: 0;
+    z-index: -4000;
 }
