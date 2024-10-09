@@ -3,6 +3,10 @@
     src: url(../assets/fonts/EBGaramond-VariableFont_wght.ttf);
 }
 
+*,html {
+    font-family: EBGaramond;
+}
+
 body {
     background-color: black;
 }
@@ -13,7 +17,7 @@ body {
     top: 2vh;
     text-align: center;
     /* height: 96vh; */
-    width: 70vw;
+    width: 68vw;
     z-index: 1;
 }
 .side-img {
@@ -44,7 +48,7 @@ body {
     position: absolute;
     color: white;
     right: 2.5vh;
-    width: 26vw;
+    width: 28vw;
 }
 #title {
     text-align: center;
