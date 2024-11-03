@@ -33,7 +33,7 @@ body {
     display: inline-block;
 }
 #main-svg {
-    display: block;
+    display: none;
 }
 #mp-oy
 {
