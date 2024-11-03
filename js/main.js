@@ -1,7 +1,7 @@
 $('#mp-oy').click(function(){
   $('#title').html('ΜΡ ΘΥ')
   $('#writing').html(
-    'An abbreviation of the Greek "Μήτηρ τοῦ Θεοῦ", meaning "Mother of God". Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.');
+    'An abbreviation of the Greek "Μήτηρ τοῦ Θεοῦ", meaning "Mother of God".');
 });
 $('#hagia-sophia').click(function(){
   $('#title').html('Hagia Sophia');
@@ -12,12 +12,12 @@ $('#hagia-sophia').click(function(){
 $('#theotokos').click(function(){
   $('#title').html('Theotokos')
   $('#writing').html(
-    'The Virgin Mother Mary holding the Child Christ. The Greek title <i>Theotokos</i>, meaning God-Bearer, is used to describe her. Here she wears a maphorion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.');
+    'The Virgin Mother Mary holding the Child Christ. The Greek title <i>Theotokos</i>, meaning God-Bearer, is used to describe her. Here she wears a maphorion.');
 });
 $('#jesus').click(function(){
   $('#title').html("The Child Christ")
   $('#writing').html(
-'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'  )
+'The Christ Child, also known as Divine Infant, Baby Jesus, Infant Jesus, the Divine Child, Child Jesus, the Holy Child, Divino Niño, and Santo Niño in Hispanic nations, refers to Jesus Christ from his nativity until age 12.<br> <a href="https://en.wikipedia.org/wiki/Christ_Child">Text Source</a>'  )
 });
 $('#justinian-i').click(function(){
   $('#title').html("Justinian I")
