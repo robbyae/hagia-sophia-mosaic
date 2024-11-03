@@ -37,12 +37,12 @@ $('#constantinople').click(function(){
 $('#left-text').click(function(){
   $('#title').html("Greek Text on the Left")
   $('#writing').html(
-  'I don\'t speak Greek, and I could not find a reliable transcription/translation. Please remember — this is a tech demo, and I am not an art historian.')
+  'I don\'t speak Greek, and I could not find a reliable transcription or translation. Please remember — this is a tech demo, and I am not an art historian.')
 });
 $('#right-text').click(function(){
   $('#title').html("Greek Text on the Right")
   $('#writing').html(
-  'I don\'t speak Greek, and I could not find a reliable transcription/translation. Please remember — this is a tech demo, and I am not an art historian.')
+  'I don\'t speak Greek, and I could not find a reliable transcription or translation. Please remember — this is a tech demo, and I am not an art historian.')
 });
 
 // SIZE RIGHT TEXT BOX //
