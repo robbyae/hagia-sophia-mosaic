@@ -17,7 +17,7 @@ $('#theotokos').click(function(){
 $('#jesus').click(function(){
   $('#title').html("The Child Christ")
   $('#writing').html(
-'The Christ Child, also known as Divine Infant, Baby Jesus, Infant Jesus, the Divine Child, Child Jesus, the Holy Child, Divino Niño, and Santo Niño in Hispanic nations, refers to Jesus Christ from his nativity until age 12.<br> <a href="https://en.wikipedia.org/wiki/Christ_Child">Text Source</a>'  )
+'The Christ Child, also known as Divine Infant, Baby Jesus, Infant Jesus, the Divine Child, Child Jesus, the Holy Child, Divino Niño, and Santo Niño in Hispanic nations, refers to Jesus Christ from his nativity until age 12.<br> <a href="https://en.wikipedia.org/wiki/Christ_Child">Wikipedia</a>'  )
 });
 $('#justinian-i').click(function(){
   $('#title').html("Justinian I")
